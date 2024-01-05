@@ -190,7 +190,7 @@ def tokenize(text, stemmer):
         tokens = [six.ensure_str(stemmer.stem(x)) if len(x) > 3 else x
                   for x in tokens]
 
-      # One final check to drop any empty or invalid tokens.
-      tokens = [x for x in tokens if VALID_TOKEN_RE.match(x)]
+    # One final check to drop any empty or invalid tokens.
+    tokens = [x for x in tokens if VALID_TOKEN_RE.match(x)]
 
     return tokens
