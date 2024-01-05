@@ -1,11 +1,7 @@
+import re
 import six
 import abc
 from nltk.stem import porter
-
-from __future__ import absolute_import
-from __future__ import division
-from __future__ import print_function
-import re
 
 # ========================
 # Extract the n-grams
