@@ -1,5 +1,6 @@
 import re
 import abc
+import six
 from nltk.stem import porter
 
 # ========================
