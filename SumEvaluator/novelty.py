@@ -2,6 +2,10 @@ import six
 import abc
 from nltk.stem import porter
 
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
+import re
 
 # ========================
 # Extract the n-grams
@@ -150,13 +154,6 @@ def calculate(articles, summaries, ngrams):
 # limitations under the License.
 
 """A library for tokenizing text."""
-
-from __future__ import absolute_import
-from __future__ import division
-from __future__ import print_function
-
-import re
-import six
 
 
 # Pre-compile regexes that are use often
