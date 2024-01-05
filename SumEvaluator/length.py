@@ -64,7 +64,7 @@ def calculate(articles, summaries):
     
     assert len(articles) == len(summaries), "Articles and Summaries must have the same number of elements."
 
-    tokenizer = tokenizers.DefaultTokenizer(use_stemmer=False)
+    tokenizer = DefaultTokenizer(use_stemmer=False)
     
     summary_length = average_meter()
     summary_article_ratio = average_meter()

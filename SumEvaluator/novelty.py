@@ -111,7 +111,7 @@ def calculate(articles, summaries, ngrams):
     
     assert len(articles) == len(summaries), "Articles and Summaries must have the same number of elements."
     
-    tokenizer = tokenizers.DefaultTokenizer(use_stemmer=False)
+    tokenizer = DefaultTokenizer(use_stemmer=False)
     
     res = {}
     
