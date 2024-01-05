@@ -2,6 +2,7 @@ import re
 import six
 import abc
 from nltk.stem import porter
+import collections
 
 # ========================
 # Extract the n-grams
