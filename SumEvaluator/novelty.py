@@ -47,7 +47,7 @@ class DefaultTokenizer(Tokenizer):
         self._stemmer = porter.PorterStemmer() if use_stemmer else None
 
     def tokenize(self, text):
-        return tokenize.tokenize(text, self._stemmer)
+        return tokenize(text, self._stemmer)
 
 
 # ========================
