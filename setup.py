@@ -7,5 +7,5 @@ setup(
     description='A library designed for the analysis of various aspects of generated summaries.',
     author='Ala Falaki',
     license='MIT',
-    install_requires=["torch", "nltk", "sentence_transformers", "pandas", "openai", "six"]
+    install_requires=["torch", "nltk", "sentence_transformers", "pandas", "openai==0.28", "six"]
 )
