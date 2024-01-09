@@ -12,7 +12,7 @@ Run the following command to install the package.
 pip install -q git+https://github.com/AlaFalaki/SumEvaluator.git
 ```
 
-You can see usage example in the [demo.ipynb notebook].(https://colab.research.google.com/github/AlaFalaki/SumEvaluator/blob/main/demo.ipynb).
+You can see usage example in the [demo.ipynb notebook](https://colab.research.google.com/github/AlaFalaki/SumEvaluator/blob/main/demo.ipynb).
 
 ## Metrics
 
