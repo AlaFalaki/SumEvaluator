@@ -48,7 +48,7 @@ SumEvaluator.novelty.calculate(articles=[ARTICLE],
 ___
 
 #### Focus Finder
-This visualization method employs an embedding model to determine the cosine similarity score between the generated summary and each sentence from the article. Then, the `illustrate()` method helps with illustrating where the model is concentrating its attention during the summary generation process.
+This visualization method employs an embedding model to determine the cosine similarity score between the generated summary and each sentence from the article. Then, the `illustrate()` method helps with illustrating where the model is concentrating its attention during the summary generation process.It is possible to see the score assigned to each sentence by hovering your cursor on the sentence number for a few seconds.
 
 ```
 SumEvaluator.focus.prepare([ARTICLE], [SUMMARY], "test_proj")
@@ -56,7 +56,7 @@ SumEvaluator.focus.illustrate("test_proj")
 ```
 
 <p align="center">
-<img width="350" src="https://raw.githubusercontent.com/AlaFalaki/SumEvaluator/main/images/focus_finder.png" />
+<img width="700" src="https://raw.githubusercontent.com/AlaFalaki/SumEvaluator/main/images/focus_finder.png" />
 </p>
 
 ___
