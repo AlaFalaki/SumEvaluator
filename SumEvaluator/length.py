@@ -72,8 +72,8 @@ def calculate(articles, summaries):
     summary_article_ratio = average_meter()
 
     for article, summary in zip(articles, summaries):
-        sum_len = len( tokenizer.tokenize( article ) )
-        art_len = len( tokenizer.tokenize( summary ) )
+        sum_len = len( tokenizer.tokenize( summary ) )
+        art_len = len( tokenizer.tokenize( article ) )
 
         summary_length.update( sum_len )
         summary_article_ratio.update( art_len/sum_len )
