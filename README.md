@@ -83,7 +83,18 @@ SumEvaluator.length.calculate([ARTICLE], [SUMMARY])
 ## Citations
 If you wish to cite the paper, you may use the following:
 ```
-@paper comming soon?
+@article{SumEvaluator,
+  title = {A novel unsupervised fine-tuning method for text summarization, and highlighting the limitations of ROUGE score},
+  journal = {Machine Learning with Applications},
+  volume = {20},
+  pages = {100666},
+  year = {2025},
+  issn = {2666-8270},
+  doi = {https://doi.org/10.1016/j.mlwa.2025.100666},
+  url = {https://www.sciencedirect.com/science/article/pii/S2666827025000490},
+  author = {Ala {Alam Falaki} and Robin Gras},
+  keywords = {Summarization, Unsupervised learning, Evaluation metrics, ROUGE score}
+}
 ```
 
 GL!
